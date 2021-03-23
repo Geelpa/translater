@@ -5,7 +5,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     border-radius: 8px;
     box-sizing: border-box;
-
 }
 
 body {
@@ -28,7 +27,6 @@ form {
 label {
     font-size: 1.6rem;
     font-weight: bold;
-
 }
 
 input[type="text"],
@@ -40,8 +38,8 @@ input[type="submit"] {
     margin: 16px 0;
     text-align: center;
     border: 1px solid black;
-
 }
+
 input[type="submit"] {
     background-color: rgb(226, 223, 70);
     width: 6.8rem;

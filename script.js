@@ -1,21 +1,17 @@
 const dias = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado']
 const days = ['Monday', 'sunday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
-
-
-
 const form = document.getElementById('form')
 form.onsubmit = function(event) {
     event.preventDefault()
-    console.log(form.day.value)
     const resultado = form.day.value
     const formatado = resultado.toLowerCase()
+
     document.getElementById('result2').innerHTML= ''
 
     const found = dias.find(function(day){
     return ( formatado === day)? true : false
 })
-
 switch (found){
     case 'domingo':
         document.getElementById('result').innerHTML = `${dias[0]} é `
